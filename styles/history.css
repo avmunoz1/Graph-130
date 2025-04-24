@@ -1,0 +1,23 @@
+body {
+    margin: 8px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color: burlywood;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    flex-grow: 1;
+    width: 30%;
+    background-color: cornsilk;
+    margin: 10px;
+    border: solid burlywood 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
