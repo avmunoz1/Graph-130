@@ -67,7 +67,7 @@ footer p {
 
 .container {
     width: 960px;
-    background-color: rgba(239, 255, 249, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     margin: auto;
 }
 .content {
@@ -79,7 +79,7 @@ footer p {
     float: right;
     width: 300px;
     padding: 4px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     color: #44a5b5;
     
 }
