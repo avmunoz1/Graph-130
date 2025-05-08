@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:rgb(200, 225, 200);
+}
+
+.hero {
+    padding: 2%;
+}
+
+.hero section img {
+    width: 100%;
+    height: auto;
+}
+
+.coco {
+    background-color: darkgreen;
+    color: white;
+}
+
+.coco section box-sizing {
+    box-sizing: border-box;
+}
+
+.coco .em {
+    padding: 2em;
+}
+
+.coco .rem {
+    padding: 3rem;
+}
+
+.coco .percentage p {
+    width: 75%;
+}
+
+.coco .vw {
+    padding: 5vw;
+}
+
+a {
+    color: darkseagreen;
+}
