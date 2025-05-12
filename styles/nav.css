@@ -1,5 +1,5 @@
 .romeo {
-    background-color: lightgray;
+    background-color: black;
     border-radius: 5px;
     padding: 10px;
 }
@@ -14,9 +14,9 @@
     margin: 5px;
 }
 
-.romeo {
+.romeo a {
     text-decoration: none;
-    color: white;
+    color:white;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -28,5 +28,5 @@
 }
 
 .romeo a:hover {
-    background-color: white;
+    background-color: red;
 }
