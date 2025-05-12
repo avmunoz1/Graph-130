@@ -30,18 +30,18 @@ header h2 {
     font-size: 20px;
 }
 
-nav ul {
+.sub-nav ul {
     text-align: center;
     list-style: none;
     background-color: #44a5b5;
     margin-bottom: 15px;
 }
 
-nav li {
+.sub-nav li {
     display: inline-block;
 }
 
-nav a {
+.sub-nav a {
     padding: 9px;
     display: block;
     width: 100px;
@@ -50,7 +50,7 @@ nav a {
     color: white;
 }
 
-nav a:hover {
+.sub-nav a:hover {
     background-color: #344e5f;
 }
 

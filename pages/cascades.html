@@ -8,11 +8,19 @@
 </head>
 
 <body>
+    <div id="nav-placeholder"></div>
+        <script>
+            fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
     <article class="container">
         <header>
             <h1>The Cascade Mountain Range</h1>
             <h2>Hiking and Camping Resources</h2>
-            <nav>
+            <nav class="sub-nav">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="#">Trails</a></li>
