@@ -3,7 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Optimizing Images</title>
+    <link href="https://fonts.googleapis.com/css2?family=Average&family=Short+Stack&display=swap" rel="stylesheet">
+
+    <style>
+        
+        html {
+            background-color: rgb(163, 151, 173);
+        }
+
+        .luna {
+            background-color: rgb(80, 67, 92);
+            width: 700px;
+            padding: 7px;
+            margin: 5px;
+            float: left;
+        }
+
+        .ray {
+            display: inline-block;
+            color: rgb(211, 138, 172);
+            vertical-align: top;
+            margin-left: 5px;
+            font-family: "Short Stack", cursive;
+
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .romeo {
+            background-color: rgb(48, 0, 20);
+            padding: 0px 5px 5px 0px;
+        }
+
+        .romeo img {
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;
+        }
+
+        h1 {
+            font-family: "Average", serif;
+            color: rgb(48, 0, 20);
+        }
+
+    </style>
 </head>
+
 <body>
     <div id="nav-placeholder"></div>
     <script>
@@ -13,8 +59,45 @@
         document.getElementById('nav-placeholder').innerHTML = data;
         });
     </script>
-<article>
-    <img src="../images/80.jpg" alt="80 percent jpg sample" height="400px"
-</article>
+
+<h1>Optimizing Images</h1>
+    <article class="luna">
+        <img src="../images/80.jpg" alt="80 percent jpg sample" height="400px">
+        <section class="ray"><p>80% JPG - 65K<br>Very good quality</p></section>
+    </article>
+    <article class="luna">
+        <img src="../images/40.jpg" alt="40 percent jpg sample" height="400px">
+        <section class="ray"><p>40% JPG - 23K<br>Medium low quality</p></section>
+    </article>
+    <article class="luna">
+        <img src="../images/256.gif" alt="256 color gif sample" height="400px">
+        <section class="ray"><p>256 Color GIF - 90k<br>Medium quality</p></section>
+    </article>
+    <article class="luna">
+        <img src="../images/64.gif" alt="64 color gif sample" height="400px">
+        <section class="ray"><p>64 Color GIF - 50k<br>Low quality</p></section>
+    </article>
+    <article class="luna">
+        <img src="../images/8.gif" alt="8 color gif sample" height="400px">
+        <section class="ray"><p>8 Color GIF - 23k<br>Very low quality</p></section>
+    </article>
+    <article class="luna">
+        <img src="../images/24.png" alt="PNG 24 sample" height="400px">
+        <section class="ray"><p>PNG 24 - 254k<br>Really good quality</p></section>
+    </article>
+    <div class="clear"></div>
+    <article class="romeo">
+        <img src="../images/yoksel-zok-ByfmqWydEFY-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/raphael-lopes-EzKdJiQJ-jA-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/cristiane-teston-y-5pd18ETbg-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/anna-zagranichna-a9NcHQdcCeo-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/annerose-walz--Hv45MED5eU-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/bill-nino-LWW0yhU1vbk-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/evie-fjord-w8yoG0qqa5E-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/yoksel-zok-ZsTkRnw_iYY-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/raspopova-marina-WHkOpYaeX-k-unsplash.jpg" alt="sample image" width="400px">
+        <img src="../images/yoksel-zok-X08DB_XI7xQ-unsplash.jpg" alt="sample image" width="400px">
+    </article>
+
 </body>
 </html>
