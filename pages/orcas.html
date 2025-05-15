@@ -4,12 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orcas Island Tourism</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="../styles/islands.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+        <script>
+            fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
     <header>
-        <a href="../index.html" target="_blank">go to home</a>
-        <img src="../images/"
+        <a href="../index.html" target="_blank">Go to home</a>
+        <img src="../images/sj-images/SJIVB-1.png" alt="San Juan Islands Visitors Bureau" class="logo1">
+        <search class="search">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </search>
+        <div class="hero-orcas">
+            <h1>Orcas Island</h1>
+            <p>Discover the beauty and adventure of Orcas Island, the largest island in the San Juan archipelago.</p>
+            </div>
+        </div>
     </header>
+    <nav class="islands">
+        <ul>
+            <li><a href="orcas.html">Orcas Island</a></li>
+            <li><a href="san-juan.html">San Juan Island</a></li>
+            <li><a href="lopez.html">Lopez Island</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="item1"></section>
+        <section class="item2">
+            <div class="island-text">
+                <h2>Lodging</h2>
+                <p>Looking for lodging on Orcas Island?</p>
+            </div>
+            <div class="pic2"></div>
+        </section>
+        <section class="item3"></section>
+        <section class="item4">
+            <div class="island-text">
+                <h2>Dining</h2>
+                <p>Looking for dining in Orcas Island?</p>
+            </div>
+            <div class="pic4"></div>
+        </section>
+        <section class="item5"></section>
+        <section class="item6">
+            <div class="island-text">
+                <h2>Activities</h2>
+                <p>Looking for activities in Orcas Island?</p>
+            </div>
+            <div class="pic6"></div>
+        </section>
+        <section class="item7"></section>
+    </main>
+    <footer>
+        <p class="item8">san juan expeditions</p>
+        <p class="item9">san juan expeditions</p>
+        <p class="item10">san juan expeditions</p>
+    </footer>
 </body>
 </html>
