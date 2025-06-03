@@ -62,7 +62,7 @@ header {
 }
 
 figure {
-    margin-left: 0;
+    margin: 0;
 }
 
 figcaption {
@@ -112,12 +112,18 @@ footer p {
     color: #44a5b5;
 }
 
-h1 {
-    font-size: 2em;
-}
+
 
 h1, h2, h3 {
     padding: 0;
     padding-left: 1.4em;
     font-family: "Chelsea Market", system-ui;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    margin-left: 15px;
 }
